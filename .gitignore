@@ -1,0 +1,7 @@
+# Ignore Terraform plugin and state data
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+*.log
