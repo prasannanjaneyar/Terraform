@@ -1,0 +1,5 @@
+resource_group_name     = "rg-peering-demo"
+vnet1_name              = "vnet-dev"
+vnet2_name              = "vnet-prod"
+vnet1_address_space     = "10.0.0.0/16"
+vnet2_address_space     = "10.1.0.0/16"
