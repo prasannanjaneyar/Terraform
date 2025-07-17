@@ -16,9 +16,9 @@ variables:
   TF_VERSION: '1.6.0'
 
 steps:
-- task: UseTerraform@0
-  inputs:
-    terraformVersion: $(TF_VERSION)
+#- task: UseTerraform@0
+#  inputs:
+#    terraformVersion: $(TF_VERSION)
 
 - script: |
     terraform init
